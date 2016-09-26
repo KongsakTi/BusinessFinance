@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.17)  25 SEP 2016 04:12
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.17)  26 SEP 2016 23:17
  restricted system commands enabled.
 **Midterm.tex
 (./Midterm.tex
@@ -182,56 +182,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--37
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 39.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 40.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 41.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 42.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Midterm.aux))
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 51.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 52.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 53.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 54.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--61
+
+ []
+
+[2] (./Midterm.aux))
 
 Here is how much of LuaTeX's memory you used:
  1512 strings out of 495119
  100000,89155 words of node,token memory allocated
- 1408 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 149 glue, 1 kern, 41 glue_spec, 1 write nodes
-   avail lists: 1:1,2:14,3:104,4:5,5:134,6:796,7:489,8:66,9:360,10:3,11:32
+ 1877 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 216 glue, 1 kern, 41 glue_spec, 1 write nodes
+   avail lists: 1:1,2:14,3:129,4:5,5:113,6:763,7:391,8:74,9:307,10:3,11:25
  5036 multiletter control sequences out of 65536+600000
  40 fonts using 1665439 bytes
- 27i,9n,32p,175b,266s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 27i,9n,32p,175b,353s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
@@ -243,10 +303,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Midterm.pdf (1 page, 108801 bytes).
+Output written on Midterm.pdf (2 pages, 112165 bytes).
 
-PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+PDF statistics: 55 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,8 +17,8 @@
 \begin{alignat}{3}
 	\label{EPA}		&\mbox{Equal Payment Amortization} 		&\mbox{C} 			&=  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}\\
 	\label{FVIF}	&\mbox{Future Value Interest Factor} 	&\mbox{FVIF(r, t)} 	&=  (1 + r)^t\\ 
-	\label{PVIF}	&\mbox{Present Value Interest Factor} 	&\mbox{PVIF(r, t)} 	&=  \frac{1}{(1 + r)^t}\\ 
-	&\mbox{Equal Payment }  &\mbox{C} =  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}
+	\label{PVIF}	&\mbox{Present Value Interest Factor} 	&\mbox{PVIF(r, t)} 	&=  \frac{1}{(1 + r)^t}
+%	&\mbox{Equal Payment }  &\mbox{C} =  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}
 \end{alignat}
 
 
@@ -34,7 +34,19 @@
 		$ 	= \dfrac{2,139,423}{39.196} = 54,582.5233 \mbox{ Baht per Month}$ \\\\
 		$\mbox{Total is } 54,582.5233 \times 50 = 2,729,126.167 \mbox{ Baht}$ \\\\
 		$ C_{62-months} = \dfrac{2,729,126.167}{62} = 44,018.16398 \mbox{ Baht} $
-	\2 a
+	\2 	$ \mbox{PVA}_{24-months} = c \times {\mbox{PVIFA}(r, t)} = 50,000 \times {\mbox{PVIFA}(1, 24)} $ \\\\
+		$ \mbox{PVA}_{24-months} = 1,062,169.363 $ \\\\
+		$ \mbox{PVA}_{24-months-onward} = 2,139,425 - 1,062,169.363 = 1,077,255.637 $ \\\\
+		$ 1,077,255.637 = 50,000 \times {\mbox{PVIFA}(2, 24)} $ \\\\
+		$ 1,077,255.637 = 50,000 \times \dfrac{\left[1 - \dfrac{1}{(1 + 0.02)^t}\right]}{0.02} $ \\\\
+		$ 1,077,255.637 = 2,500,000 \times \left[1 - \dfrac{1}{(1.02)^t}\right] $ \\\\
+		$ 0.4309022548 = 1 - \dfrac{1}{(1.02)^t} $ \\\\
+		$ \dfrac{1}{0.5690977452} = (1.02)^t $ \\\\
+		$ \log_{1.02}\left(\dfrac{1}{0.5690977452}\right) = \log_{1.02}(1.02)^t $ \\\\
+		$ 28.46607508 = t $ \\\\
+		$ \mbox{Total Months} = 24 + 28.46607508 = 52.46607508 \mbox{ months} $ \\\\
+
+\newpage
 \1
 	\2 	$\mbox{FVIF}_{\tiny\mbox{BBL}} = \mbox{FVIF}\left(\dfrac{8.95}{6}, 1 \times 6\right) = 1.0929$ \\\\
 		$\mbox{FVIF}_{\tiny\mbox{SCB}} = \mbox{FVIF}\left(\dfrac{9.00}{3}, 1 \times 3\right) = 1.0927$ \\\\
