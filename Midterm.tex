@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{outlines}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\title{Midterm Review}
+\author{Kongsak Tipakornrojanakit}
+\date{}
+\maketitle
+
+
+\textbf{Formulas:}
+
+
+\begin{alignat}{3}
+	\label{EPA}		&\mbox{Equal Payment Amortization} 		&\mbox{C} 			&=  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}\\
+	\label{FVIF}	&\mbox{Future Value Interest Factor} 	&\mbox{FVIF(r, t)} 	&=  (1 + r)^t\\ 
+	\label{PVIF}	&\mbox{Present Value Interest Factor} 	&\mbox{PVIF(r, t)} 	&=  \frac{1}{(1 + r)^t}\\ 
+	&\mbox{Equal Payment }  &\mbox{C} =  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}
+\end{alignat}
+
+
+
+
+
+
+
+\begin{outline}[enumerate]
+\1 
+	\2 
+		$ C_{50-months} = \dfrac{\mbox{PVA}}{\mbox{PVIFA}(r, t)} = \dfrac{2,139,423}{\mbox{PVIFA}\left(1.01, 62 - 12 \right)} $
+		$ 	= \dfrac{2,139,423}{39.196} = 54,582.5233 \mbox{ Baht per Month}$ \\\\
+		$\mbox{Total is } 54,582.5233 \times 50 = 2,729,126.167 \mbox{ Baht}$ \\\\
+		$ C_{62-months} = \dfrac{2,729,126.167}{62} = 44,018.16398 \mbox{ Baht} $
+	\2 a
+\1
+	\2 	$\mbox{FVIF}_{\tiny\mbox{BBL}} = \mbox{FVIF}\left(\dfrac{8.95}{6}, 1 \times 6\right) = 1.0929$ \\\\
+		$\mbox{FVIF}_{\tiny\mbox{SCB}} = \mbox{FVIF}\left(\dfrac{9.00}{3}, 1 \times 3\right) = 1.0927$ \\\\
+		$\mbox{FVIF}_{\tiny\mbox{TFB}} = \mbox{FVIF}\left(\dfrac{9.05}{2}, 1 \times 2\right) = 1.0925$ \\\\
+		Since $\mbox{FVIF}_{\tiny\mbox{TFB}}$ has the lowest \textbf{Effective Annual Rate}; therefore, it is the cheapest choice to go with.\\
+
+	\2 \textbf{Note: Only the first two years }\\
+		$ C = \dfrac{\mbox{PVA}}{\mbox{PVIFA}(r, t)} = \dfrac{1.6 \times 10^6}{\mbox{PVIFA}\left(\dfrac{9.00}{3}, 10 \times 3 \right)} $
+		$ 	= \dfrac{1.6 \times 10^6}{19.60} =  81,630.8149 \mbox{ Baht per 4 Months}$\\\\
+		$\mbox{Total for the first two years } = 81,630.8149 \times 3 \times 2 = 489,784.8895 \mbox{ Baht} $
+		$\mbox{Let } F = 489,784.8895$
+		
+		
+		
+\end{outline}
+
+
+
+
+
+\end{document}
