@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{outlines}
 \usepackage[margin=1in]{geometry}
 
@@ -57,7 +58,24 @@
 		$ C = \dfrac{\mbox{PVA}}{\mbox{PVIFA}(r, t)} = \dfrac{1.6 \times 10^6}{\mbox{PVIFA}\left(\dfrac{9.00}{3}, 10 \times 3 \right)} $
 		$ 	= \dfrac{1.6 \times 10^6}{19.60} =  81,630.8149 \mbox{ Baht per 4 Months}$\\\\
 		$\mbox{Total for the first two years } = 81,630.8149 \times 3 \times 2 = 489,784.8895 \mbox{ Baht} $
-		$\mbox{Let } F = 489,784.8895$
+		$\mbox{Let } F = 489,784.8895$ \\\\
+        $ \because I_0 + I_1 + \dots + I_n = (B_0 + B_1 + \dots + B_n) \times r$ \\\\
+        $ \because B_0 + B_1 + \dots + B_n = \dfrac{(B_0 + B_n) \times n}{2} $ \\\\
+        $ \therefore I_0 + I_1 + \dots + I_n = \dfrac{(B_0 + B_n) \times n \times r}{2} $ \\\\
+        $ \because B_n = B_0 - F $ \\\\
+        $ \therefore \sum_{x = 0}^{n} I_x =\dfrac{(2B_0 - F) \times n \times r}{2} $ 
+
+
+\begin{align*}
+         \sum_{x = 0}^{6} I_x &= \dfrac{(2(1.6 \times 10^6) - 489,784.8895) \times 6 \times \dfrac{0.09}{3}}{2} \\
+        &= ((3.2 \times 10^6) - 489,784.8895) \times 0.09 \\
+        &= 243,919.36 \\\\
+        \sum_{x = 0}^{6} P_x &= F - \sum_{x = 0}^{6} I_x \\
+        &= 489,784.8895 - 243,919.36 \\
+        &= 245,865.5296
+\end{align*}
+
+
 		
 		
 		
