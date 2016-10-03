@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+	\title{Homework 1}
+	\author{Kongsak Tipakornrojanakit [5680624]}
+	\date{}
+	\maketitle
+	
+	EX12.2
+	
+	
+	\textbf{Remark:} \\
+	
+	Start withdraw on month = 9 and withdraw every 7 months for 40 times
+	\begin{align*}
+		\mbox{PVIFA}_{282} &= \dfrac{1}{1.01^9} + \dfrac{1}{1.01^{16}} + \dots + \dfrac{1}{1.01^{282}} \\
+		\mbox{PVIFA}_{282} \times 1.01^7 &= \dfrac{1}{1.01^2} + \dfrac{1}{1.01^{9}} + \dots + \dfrac{1}{1.01^{275}} \\ 
+		\mbox{PVIFA}_{282} (1.01^7 - 1) &= \dfrac{1}{1.01^2} - \dfrac{1}{1.01^{282}} \\
+		\mbox{PVIFA}_{282} &= 12.7517135903
+	\end{align*}
+	\vspace{0.1in}
+	\begin{align*}	
+		\mbox{PV} &= 12.7517135903 \times 1,000 \\
+		\mbox{PV} &= 12,751.7135903
+	\end{align*}
+	
+	\newpage
+	EX13.1
+	
+	
+	\textbf{Remark:} \\
+	
+	FVIFA from $21^{st} \rightarrow 60^{th} $ \\
+	\indent PVIFA from $61^{st} \rightarrow 81^{st} $
+	
+	\begin{align*}
+	\mbox{PVIFA}_{61} &= \dfrac{1}{1.1} + \dfrac{1}{1.1^{2}} + \dots + \dfrac{1}{1.1^{20}} \\
+	\mbox{PVIFA}_{61} \times 1.1 &= 1 + \dfrac{1}{1.1} + \dots + \dfrac{1}{1.1^{19}} \\ 
+	\mbox{PVIFA}_{61} (1.1 - 1) &= 1 - \dfrac{1}{1.1^{20}} \\
+	\mbox{PVIFA}_{61} &= 8.513563719758565
+	\end{align*}
+	
+	\vspace{0.1in}
+	\begin{align*}	
+	\mbox{PV}_{61} &= 8.513563719758565 \times 50,000 \\
+	\mbox{PV}_{61} &= 425,678.18598792824
+	\end{align*}
+	
+	\vspace{0.1in}
+	\begin{align*}
+	\mbox{FVIFA}_{61} &= C \times (1.1 + 1.1^2 + \dots + 1.1^{40}) \\
+	\dfrac{\mbox{FVIFA}_{61}}{1.1} &= C \times (1 + 1.1 + \dots + 1.1^{40}) \\
+	\mbox{FVIFA}_{61} (1 - \dfrac{1}{1.1}) &= C \times (1.1^{40} - 1) \\
+	\mbox{FVIFA}_{61} &= C \times 486.85181125
+	\end{align*}	
+	
+	\vspace{0.1in}
+	\begin{align*}	
+	C &= \dfrac{\mbox{FVIFA}_{61}}{486.85181125} \\ 
+	C &= \dfrac{425,678.18598792824}{486.85181125} \\ 
+	C &= 874.3485720943456
+	\end{align*}
+	
+	\newpage
+	EX13.2
+	
+	
+	\textbf{Remark:} \\
+	
+	FVIFA from $24^{th} \rightarrow 60^{th} $ and Deposit every 2 years\\
+	\indent PVIFA from $61^{st} \rightarrow 82^{st} $ and Withdraw every half years
+	
+	\begin{align*}
+	\mbox{PVIFA}_{21} &= \dfrac{1}{1.1} + \dfrac{1}{1.1^{0.5}} + \dots + \dfrac{1}{1.1^{21}} \\
+	\mbox{PVIFA}_{21} \times 1.1^{0.5} &= 1 + \dfrac{1}{1.1^{0.5}} + \dots + \dfrac{1}{1.1^{21}} \\ 
+	\mbox{PVIFA}_{21} (1.1^{0.5} - 1) &= 1 - \dfrac{1}{1.1^{21}} \\
+	\mbox{PVIFA}_{21} &= 17.7195213879
+	\end{align*}
+	
+	\vspace{0.1in}
+	\begin{align*}	
+	\mbox{PV}_{61} &= 17.7195213879 \times 50,000 \\
+	\mbox{PV}_{61} &= 885,976.069394
+	\end{align*}
+	
+	\vspace{0.1in}
+	\begin{align*}
+	\mbox{FVIFA}_{61} &= C \times (1.1 + 1.1^3 + \dots + 1.1^{37}) \\
+	\mbox{FVIFA}_{61} \times 1.1^2 &= C \times (1.1^3 + \dots + 1.1^{39}) \\
+	\mbox{FVIFA}_{61} (1.1^2 - 1) &= C \times (1.1^{39} - 1.1) \\
+	\mbox{FVIFA}_{61} &= C \times 190.689418044
+	\end{align*}	
+		
+		\vspace{0.1in}
+		\begin{align*}	
+		C &= \dfrac{\mbox{FVIFA}_{61}}{190.689418044} \\ 
+		C &= \dfrac{885,976.069394}{190.689418044} \\ 
+		C &= 4646.17323018
+		\end{align*}
+\end{document}
