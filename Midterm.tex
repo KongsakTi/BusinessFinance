@@ -16,9 +16,10 @@
 
 
 \begin{alignat}{3}
-	\label{EPA}		&\mbox{Equal Payment Amortization} 		&\mbox{C} 			&=  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}\\
-	\label{FVIF}	&\mbox{Future Value Interest Factor} 	&\mbox{FVIF(r, t)} 	&=  (1 + r)^t\\ 
-	\label{PVIF}	&\mbox{Present Value Interest Factor} 	&\mbox{PVIF(r, t)} 	&=  \frac{1}{(1 + r)^t}
+	\label{EPA}		&\mbox{Equal Payment Amortization} 				&\mbox{C} 				&=  \dfrac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}\\
+	\label{FVIF}	&\mbox{Future Value Interest Factor} 			&\mbox{FVIF(r, t)} 		&=  (1 + r)^t\\ 
+	\label{PVIF}	&\mbox{Present Value Interest Factor} 			&\mbox{PVIF(r, t)} 		&=  \dfrac{1}{(1 + r)^t} \\
+					&\mbox{Present Value Interest Factor Annuity} \hspace{2cm}	&\mbox{PVIFA(r, t)} 	&=  \dfrac{\left(1 - \dfrac{1}{(1 + r)^t}\right)}{r}
 %	&\mbox{Equal Payment }  &\mbox{C} =  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}
 \end{alignat}
 
@@ -57,23 +58,26 @@
 	\2 \textbf{Note: Only the first two years }\\
 		$ C = \dfrac{\mbox{PVA}}{\mbox{PVIFA}(r, t)} = \dfrac{1.6 \times 10^6}{\mbox{PVIFA}\left(\dfrac{9.00}{3}, 10 \times 3 \right)} $
 		$ 	= \dfrac{1.6 \times 10^6}{19.60} =  81,630.8149 \mbox{ Baht per 4 Months}$\\\\
-		$\mbox{Total for the first two years } = 81,630.8149 \times 3 \times 2 = 489,784.8895 \mbox{ Baht} $
-		$\mbox{Let } F = 489,784.8895$ \\\\
-        $ \because I_0 + I_1 + \dots + I_n = (B_0 + B_1 + \dots + B_n) \times r$ \\\\
-        $ \because B_0 + B_1 + \dots + B_n = \dfrac{(B_0 + B_n) \times n}{2} $ \\\\
-        $ \therefore I_0 + I_1 + \dots + I_n = \dfrac{(B_0 + B_n) \times n \times r}{2} $ \\\\
-        $ \because B_n = B_0 - F $ \\\\
-        $ \therefore \sum_{x = 0}^{n} I_x =\dfrac{(2B_0 - F) \times n \times r}{2} $ 
+		$\mbox{Total Paid}_6 = 81,630.8149 \times 3 \times 2 = 489,784.8895 \mbox{ Baht} $
+	\begin{align*}
+		\mbox{Balance}_n &= C \times \mbox{PVIFA}(r, (\mbox{Total Number of Payment} - n)) \\\\
+		\mbox{Balance}_6 &= 81,630.8149 \times \mbox{PVIFA}(3, (3 \times 10) - 6) \\\\
+		\mbox{Balance}_6 &= 81,630.8149 \times \dfrac{\left(1 - \dfrac{1}{(1.03)^{24}}\right)}{0.03} \\\\
+		\mbox{Balance}_6 &= 81,630.8149 \times 16.9355 \\\\
+		\mbox{Balance}_6 &= 1,382,448.3034
+	\end{align*}
+	
+	\begin{align*}
+		\mbox{Principle Paid}_6 &= \mbox{Balance}_0 - \mbox{Balance}_6 \\\\
+		&= 1,600,000 - 1,382,448.3034 \\\\
+		&= 217,551.6966
+	\end{align*}
 
-
-\begin{align*}
-         \sum_{x = 0}^{6} I_x &= \dfrac{(2(1.6 \times 10^6) - 489,784.8895) \times 6 \times \dfrac{0.09}{3}}{2} \\
-        &= ((3.2 \times 10^6) - 489,784.8895) \times 0.09 \\
-        &= 243,919.36 \\\\
-        \sum_{x = 0}^{6} P_x &= F - \sum_{x = 0}^{6} I_x \\
-        &= 489,784.8895 - 243,919.36 \\
-        &= 245,865.5296
-\end{align*}
+	\begin{align*}
+		\mbox{Interest Paid}_6 &= \mbox{Total Paid}_6 - \mbox{Principle Paid}_6 \\\\
+		&= 489,784.8895 - 217,551.6966 \\\\
+		&= 272,233.1929
+	\end{align*}
 
 
 		

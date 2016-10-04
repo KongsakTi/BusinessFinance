@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.17)  27 SEP 2016 18:55
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.17)  4 OCT 2016 22:33
  restricted system commands enabled.
 **Midterm.tex
 (./Midterm.tex
@@ -184,87 +184,84 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.62299pt too wide) in paragraph at lines 34--38
+Overfull \hbox (2.62299pt too wide) in paragraph at lines 35--39
 []$\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 = [] = []$ $= [] = 54\OML/cmm/m/it/10 ;
  \OT1/cmr/m/n/10 582\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5233[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--49
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 52.
-
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 53.
 
@@ -275,52 +272,30 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 54.
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 55.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 56.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
@@ -329,12 +304,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--67
 Here is how much of LuaTeX's memory you used:
  1824 strings out of 495119
  100000,89155 words of node,token memory allocated
- 2927 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 366 glue, 1 kern, 41 glue_spec, 1 write nodes
-   avail lists: 1:1,2:14,3:129,4:5,5:113,6:763,7:444,8:74,9:307,10:3,11:25
+ 2822 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 351 glue, 1 kern, 41 glue_spec, 1 write nodes
+   avail lists: 1:1,2:16,3:130,4:5,5:133,6:837,7:501,8:80,9:388,10:3,11:31
  5308 multiletter control sequences out of 65536+600000
  52 fonts using 2161535 bytes
- 27i,11n,32p,174b,367s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 27i,13n,32p,174b,372s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
@@ -345,12 +320,11 @@ live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Midterm.pdf (2 pages, 123091 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Midterm.pdf (2 pages, 114518 bytes).
 
-PDF statistics: 59 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+PDF statistics: 55 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
